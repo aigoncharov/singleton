@@ -1,0 +1,7 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-standard", "tslint-config-prettier"],
+  "rules": {
+    "max-classes-per-file": [false, 1]
+  }
+}
