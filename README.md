@@ -1,18 +1,17 @@
+# singleton [![Build Status](https://travis-ci.org/keenondrums/singleton.svg?branch=master)](https://travis-ci.org/keenondrums/singleton) [![Coverage Status](https://coveralls.io/repos/github/keenondrums/singleton/badge.svg?branch=master)](https://coveralls.io/github/keenondrums/singleton?branch=master) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Singleton.%20No%20constructor%20monkeypatching.%20Zero%20dependencies.%20Built%20with%20TypeScript.&url=https://github.com/keenondrums/singleton&hashtags=javascript,typescript,singleton,decorator)
+
+Singleton. No constructor monkeypatching. Zero dependencies. Built with TypeScript.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [singleton](#singleton)
-  - [Installation](#installation)
-  - [Quick start](#quick-start)
-  - [Usage without decorators](#usage-without-decorators)
-  - [Inheritance](#inheritance)
-  - [In depth](#in-depth)
+- [Installation](#installation)
+- [Quick start](#quick-start)
+- [Usage without decorators](#usage-without-decorators)
+- [Inheritance](#inheritance)
+- [In depth](#in-depth)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# singleton
-
-Singleton. No constructor monkeypatching. Zero dependencies. Built with TypeScript.
 
 ## Installation
 
