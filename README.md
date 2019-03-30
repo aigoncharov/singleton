@@ -1,8 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
-
 - [singleton](#singleton)
   - [Installation](#installation)
   - [Quick start](#quick-start)
@@ -82,3 +80,15 @@ new ChildSingleton() === new ChildSingleton() // returns `true`
 ## In depth
 
 `singleton` decorator wraps your class with a [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) and a [construct trap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/construct) to override class' creation logic.
+
+Your singleton instance is always available as a static property of a class by key `SINGLETON_KEY`.
+
+```ts
+import { singleton, SINGLETON_KEY } from '@keenondrums/singleton'
+
+@singleton
+class Test {}
+
+const instance = new Test()
+Test[SINGLETON_KEY] === instance // returns `true`
+```
