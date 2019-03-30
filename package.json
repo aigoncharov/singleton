@@ -1,7 +1,7 @@
 {
   "name": "@keenondrums/singleton",
   "version": "1.0.0",
-  "description": "Singleton. No constructor monkeypatching. Zero dependencies. Built with TypeScript.",
+  "description": "Singleton decorator. No constructor monkeypatching. Zero dependencies. Built with TypeScript.",
   "main": "dist/index.js",
   "scripts": {
     "test": "npx jest",
